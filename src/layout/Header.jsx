@@ -1,6 +1,6 @@
 import "../styles/main.css";
 
-import { navLinks } from "./infos.js";
+import { navLinks } from "../components/infos.js";
 
 import logoBranca from "../assets/images/logoBranca.svg";
 

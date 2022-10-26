@@ -7,23 +7,48 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      boxShadow: {
+        "btn-shadow": "0px 2.98017px 2.98017px rgba(0, 0, 0, 0.25)",
+      },
     },
     colors: {
-      "primary": "#0F123F",
+      primary: "#0F123F",
+      secondary: "#2A407C",
       "text-primary": "#FFF",
       "text-secondary": "#8794BA",
-      "btn": "#0DE67B",
-      "white": "#FFF"
+      btn: "#0DE67B",
+      white: "#FFF",
+      gray: "#F6F6F6",
     },
     fontSize: {
       "2xl": "50px",
-      "xl": "40px",
+      xl: "40px",
       "2rg": "24px",
-      "rg": "20px",
-      "md": "18px",
-      "sm": "16px",
-      "xsm": "14px"
+      rg: "20px",
+      md: "18px",
+      sm: "16px",
+      xsm: "14px",
+    },
+    backgroundImage: {
+      bgClient: "url(./src/assets/images/BgClient.png)",
+    },
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
     },
   },
+
   plugins: [],
 };

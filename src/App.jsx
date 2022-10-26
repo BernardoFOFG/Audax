@@ -1,22 +1,30 @@
-import { Header } from "./components/Header.jsx";
-import { Hero } from "./components/Hero.jsx";
-import { Ema } from "./components/Ema.jsx";
-import { Info } from "./components/Info.jsx";
-import { Clip } from "./components/Clip.jsx";
+import { Header } from "./layout/Header.jsx";
+import { Hero } from "./layout/Hero.jsx";
+import { Conheca } from "./layout/Conheca.jsx";
+import { Funcionalidades } from "./layout/Funcionalidades.jsx";
+import { Contato } from "./layout/Contato.jsx";
+import { Footer } from "./components/Footer.jsx";
+
 import "./styles/main.css";
 
 export function App() {
   return (
-    <div className="bg-primary w-full font-inter border-b-4 border">
-      <div className="flex flex-col items-center">
-        <div className="w-[1440px]  mx-auto mt-16 border border-1">
-          <Header />
-          <Hero />
-          <Ema />
-          <Info />
-          <Clip />
+    <>
+      <div className="bg-primary font-inter overflow-hidden">
+        <div className="flex flex-col items-center">
+          <div className="w-[1440px] mx-auto mt-16">
+            <Header />
+            <Hero />
+            <Conheca />
+            <Funcionalidades />
+          </div>
+          <div className="w-screen mx-0 mt-0 bg-bgClient bg-cover">
+            <Contato />
+          </div>
         </div>
       </div>
-    </div>
+      <hr className="w-[1180px] mx-auto border-b-1 border-spacing-1 border-secondary" />
+      <Footer />
+    </>
   );
 }
