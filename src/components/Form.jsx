@@ -25,8 +25,8 @@ export function Form() {
     setSumbit(true);
   };
   return (
-    <div className="w-[704px] flex flex-col justify-center items-center mt-56">
-      <h2 className="w-[544px] h-[102px] font-bold text-xl text-primary text-center mb-8">
+    <div className="w-[704px] flex flex-col justify-center items-center pt-56" id="Contato">
+      <h2 className="w-[544px] h-[102px] font-bold text-xl text-primary text-center mb-8" >
         Sed ut perspiciatis unde monis iste natus error.
       </h2>
 
@@ -46,13 +46,13 @@ export function Form() {
             onChange={handleInput}
             required
             placeholder="Seu melhor e-mail"
-            className="w-full p-4 bg-gray rounded-2xl focus:outline-none focus:ring focus:ring-primary"
+            className="w-full p-4 bg-gray rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary"
           />
         </label>
         <div className="flex gap-[10px] w-full">
           <label htmlFor="nome" className="flex items-center w-full h-[52px] ">
             <input
-              className="p-4 bg-gray rounded-2xl w-full focus:outline-none focus:ring focus:ring-primary"
+              className="p-4 bg-gray rounded-2xl w-full focus:outline-none focus:ring-2 focus:ring-primary"
               type="text"
               name="nome"
               value={formValues.nome || ""}
@@ -67,7 +67,7 @@ export function Form() {
             className="flex items-center w-full h-[52px] "
           >
             <input
-              className="p-4 bg-gray rounded-2xl w-full focus:outline-none focus:ring focus:ring-primary"
+              className="p-4 bg-gray rounded-2xl w-full focus:outline-none focus:ring-2 focus:ring-primary"
               type="text"
               name="empresa"
               value={formValues.empresa || ""}
@@ -79,7 +79,7 @@ export function Form() {
         </div>
         <label htmlFor="assunto" className="flex w-full items-center h-[52px]">
           <input
-            className="w-full p-4 bg-gray rounded-2xl focus:outline-none focus:ring focus:ring-primary"
+            className="w-full p-4 bg-gray rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary"
             type="text"
             name="assunto"
             value={formValues.assunto || ""}
@@ -107,7 +107,7 @@ export function Form() {
           </div>
           <div>
             <input
-              className="bg-btn w-[281px] h-[59px] rounded-2xl shadow-btn-shadow hover:cursor-pointer placeholder:text-text-primary placeholder:text-center focus:outline-none focus:ring focus:ring-secondary disabled:cursor-auto"
+              className="bg-btn w-[281px] h-[59px] rounded-2xl shadow-btn-shadow hover:cursor-pointer placeholder:text-text-primary placeholder:text-center focus:outline-none focus:ring focus:ring-secondary disabled:cursor-auto disabled:bg-text-secondary transition duration-300"
               type="submit"
               value="Entre em contato"
               disabled={!sumbit}

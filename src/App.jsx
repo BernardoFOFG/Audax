@@ -11,12 +11,12 @@ export function App() {
   return (
     <>
       <div className="bg-primary font-inter overflow-hidden">
-        <div className="flex flex-col items-center">
-          <div className="w-[1440px] mx-auto mt-16">
-            <Header />
-            <Hero />
-            <Conheca />
-            <Funcionalidades />
+        <div className="flex flex-col items-center" id="Inicio">
+          <div className="w-[1440px] mx-auto mt-16" >
+              <Header />
+              <Hero />
+              <Conheca />
+              <Funcionalidades />    
           </div>
           <div className="w-screen mx-0 mt-0 bg-bgClient bg-cover">
             <Contato />
