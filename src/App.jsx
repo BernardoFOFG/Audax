@@ -7,6 +7,7 @@ import { Footer } from "./layout/Footer.jsx";
 
 
 import "./styles/main.css";
+import './styles/index.css'
 
 export function App() {
   return (
@@ -22,7 +23,7 @@ export function App() {
             <Conheca />
             <Funcionalidades />
           </div>
-          <div className="w-screen mx-0 mt-0 bg-[url('../public/bgClient.png')] bg-cover">
+          <div className="w-screen mx-0 mt-0 bg-cover" id="client">
             <Contato />
           </div>
         </div>
