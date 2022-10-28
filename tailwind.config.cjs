@@ -23,7 +23,7 @@ module.exports = {
     fontSize: {
       "2xl": "50px",
       xl: "40px",
-      "2rg": "24px",
+      "3rg": "24px",
       rg: "20px",
       md: "18px",
       sm: "16px",
@@ -33,6 +33,10 @@ module.exports = {
       bgClient: "url(./src/assets/images/BgClient.png)",
     },
     screens: {
+      xsm: "375px",
+      // => @media (min-width: 375px) { ... }
+      '2sm': '425px',
+      // => @media (min-width: 425px) { ... } 
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 
@@ -45,8 +49,8 @@ module.exports = {
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1536px",
-      // => @media (min-width: 1536px) { ... }
+      "2xl": "1440px",
+      // => @media (min-width: 1440px) { ... }
     },
   },
 

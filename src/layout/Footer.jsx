@@ -1,11 +1,11 @@
 import "../styles/main.css";
 
-import { navLinks } from "./infos";
+import { navLinks } from "../components/infos";
 
 import logoAzul from "../assets/images/logoAzul.svg";
 export function Footer() {
   return (
-    <footer className="flex justify-between w-[1128px] mx-auto mt-[61px] mb-20">
+    <footer className="flex md:flex-row xsm:flex-col md:justify-between xsm:items-center xl:w-[1128px] md:gap-0 xsm:gap-4 lg:w-[924px] md:w-[640px] mx-auto mt-[61px] mb-20">
       <div className="">
         <img src={logoAzul} alt="Logo azul" />
       </div>

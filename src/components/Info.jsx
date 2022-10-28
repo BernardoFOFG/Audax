@@ -9,7 +9,7 @@ import System4 from "../assets/images/system4.svg";
 
 export function Info() {
   return (
-    <section className="flex flex-col mt-40" id="Funcionalidades">
+    <section className="flex flex-col lg:mt-40 xsm:mt-20 lg:gap-0 xsm:gap-8" id="Funcionalidades">
       <CardInfo
         title="Lorem ipsum
     dolor sit amen"
