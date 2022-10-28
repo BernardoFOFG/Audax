@@ -2,6 +2,7 @@
 ### Infelizmente os commits foram bem vagos, porém para suprir esse déficit foi criado um To-Do para ter controle das tarefas a realizar.   <a href="https://glib-chill-ca3.notion.site/Audax-Tarefas-8c0378c1bca64842b6ae2a0a14be516d" target="_blank">Clique aqui para acessar</a>
 
 ### Se não for do seu interesse rodar a aplicação em localhost você terá a mesma aplicação na vercel. [Clique aqui para acessar](https://audax-bernardofofg.vercel.app/)
+#### (Infelizmente o background do formulário não tá sendo carregado pela vercel, mas isso não interfirá na navegação)
 ### Conhecimentos utilizados:
 - HTML5
 - CSS3
