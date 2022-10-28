@@ -5,6 +5,7 @@ import { Funcionalidades } from "./layout/Funcionalidades.jsx";
 import { Contato } from "./layout/Contato.jsx";
 import { Footer } from "./layout/Footer.jsx";
 
+
 import "./styles/main.css";
 
 export function App() {
@@ -21,7 +22,7 @@ export function App() {
             <Conheca />
             <Funcionalidades />
           </div>
-          <div className="w-screen mx-0 mt-0 bg-[url('./public/bgClient.png')] bg-cover">
+          <div className="w-screen mx-0 mt-0 bg-[url('../public/bgClient.png')] bg-cover">
             <Contato />
           </div>
         </div>
