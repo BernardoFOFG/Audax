@@ -4,8 +4,8 @@ import { CardInfo } from "./CardInfo.jsx";
 
 import System1 from "../assets/images/system1.png";
 import System2 from "../assets/images/system2.svg";
-import System3 from "../assets/images/system3.svg";
-import System4 from "../assets/images/system4.svg";
+import System3 from "../assets/images/system3.png";
+import System4 from "../assets/images/system4.png";
 
 export function Info() {
   return (

@@ -14,7 +14,7 @@ export function Ema() {
           asas, é uma ave não voadora.
         </p>
       </div>
-      <div className="flex lg:flex-row xsm:flex-col lg:gap-8 xsm:gap-4 xsm:w-auto  mt-10">
+      <div className="flex lg:flex-row xsm:flex-col lg:gap-8 xsm:gap-4 xsm:w-auto mt-10">
         <CardEma
           title="99% dos dados adicionados sem fonte não possuem veracidade."
           description="Inclusive esse texto aqui, que não possui fundo científico algum e é 100% errado. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
