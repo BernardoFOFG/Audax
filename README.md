@@ -1,5 +1,11 @@
 # Audax - Processo Seletivo
 ### Infelizmente os commits foram bem vagos, porém para suprir esse déficit foi criado um To-Do para ter controle das tarefas a realizar.   <a href="https://glib-chill-ca3.notion.site/Audax-Tarefas-8c0378c1bca64842b6ae2a0a14be516d" target="_blank">Clique aqui para acessar</a>
+### Conhecimentos utilizados:
+- HTML5
+- CSS3
+- Javascript
+- React.js
+- TailwindCSS
 
 ## Faça o clone do projeto com:
 ```
