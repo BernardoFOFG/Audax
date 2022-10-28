@@ -25,7 +25,7 @@ export function Form() {
     setSumbit(true);
   };
   return (
-    <div className="md:w-[704px] sm:w-[604px] xsm:w-[375px] flex flex-col justify-center items-center pt-56" id="Contato">
+    <div className="md:w-[704px] sm:w-[604px] xsm:w-[375px] flex flex-col justify-center items-center pt-40" id="Contato">
       <h2 className="md:w-[544px] sm:w-[444px] xsm:w-[360px] h-[102px] font-bold xsm:text-3rg md:text-xl text-primary text-center mb-8" >
         Sed ut perspiciatis unde monis iste natus error.
       </h2>
