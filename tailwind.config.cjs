@@ -30,7 +30,7 @@ module.exports = {
       xsm: "14px",
     },
     backgroundImage: {
-      bgClient: "url(./src/assets/images/BgClient.png)",
+      bgClient: "url(./public/BgClient.png)",
     },
     screens: {
       xsm: "375px",

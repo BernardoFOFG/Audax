@@ -1,7 +1,7 @@
 import "../styles/main.css";
 import { CardEma } from "./CardEma";
-import cardFicticio1 from "../assets/images/cardFicticio-1.svg";
-import cardFicticio2 from "../assets/images/cardFicticio-2.svg";
+import cardFicticio1 from "../../public/cardFicticio-1.svg";
+import cardFicticio2 from "../../public/cardFicticio-2.svg";
 
 export function Ema() {
   return (
