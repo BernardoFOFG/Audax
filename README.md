@@ -1,6 +1,5 @@
 # Audax - Processo Seletivo
-### Infelizmente os commits foram bem vagos, porém para suprir esse deficit foi criado um To-Do para ter controle das tarefas a realizar. [Clique aqui para acessar](https://glib-chill-ca3.notion.site/Audax-Tarefas-8c0378c1bca64842b6ae2a0a14be516d)
-
+### Infelizmente os commits foram bem vagos, porém para suprir esse déficit foi criado um To-Do para ter controle das tarefas a realizar.   <a href="https://glib-chill-ca3.notion.site/Audax-Tarefas-8c0378c1bca64842b6ae2a0a14be516d" target="_blank">Clique aqui para acessar</a>
 
 ## Faça o clone do projeto com:
 ```
