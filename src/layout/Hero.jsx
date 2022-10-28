@@ -1,7 +1,7 @@
 import "../styles/main.css";
 
 import { Button } from "../components/Button";
-import heroImage from "../assets/images/heroImage.png";
+import heroImage from "../../public/heroImage.png";
 export function Hero() {
   return (
     <section className="flex justify-between gap-[17px] items-center lg:mt-[18px] xsm:mt-16 xsm:flex-col-reverse md:flex-row ">

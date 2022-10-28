@@ -2,10 +2,10 @@ import "../styles/main.css";
 
 import { CardInfo } from "./CardInfo.jsx";
 
-import System1 from "../assets/images/system1.png";
-import System2 from "../assets/images/system2.svg";
-import System3 from "../assets/images/system3.png";
-import System4 from "../assets/images/system4.png";
+import System1 from "../../public/system1.png";
+import System2 from "../../public/system2.svg";
+import System3 from "../../public/system3.png";
+import System4 from "../../public/system4.png";
 
 export function Info() {
   return (
