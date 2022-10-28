@@ -21,7 +21,7 @@ export function App() {
             <Conheca />
             <Funcionalidades />
           </div>
-          <div className="w-screen mx-0 mt-0 bg-bgClient bg-cover">
+          <div className="w-screen mx-0 mt-0 bg-[url('./public/bgClient.png')] bg-cover">
             <Contato />
           </div>
         </div>

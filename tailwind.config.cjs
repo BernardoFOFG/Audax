@@ -29,9 +29,6 @@ module.exports = {
       sm: "16px",
       xsm: "14px",
     },
-    backgroundImage: {
-      bgClient: "url(./public/BgClient.png)",
-    },
     screens: {
       xsm: "375px",
       // => @media (min-width: 375px) { ... }
