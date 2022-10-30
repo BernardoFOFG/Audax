@@ -17,7 +17,7 @@ export function App() {
           className="flex flex-col items-center overflow-x-hidden"
           id="Inicio"
         >
-          <div className="2xl:w-[1440px] xl:w-[1024px] lg:w-[924px] md:w-[640px] sm:w-[575px] xsm:w-[375px] 2xl:mt-16 mx-auto mt-8">
+          <div className="2xl:w-[1440px] xl:w-[1024px] lg:w-[924px] md:w-[640px] sm:w-[575px] xsm:w-[360px] 2xl:mt-16 mx-auto mt-8">
             <Header />
             <Hero />
             <Conheca />
