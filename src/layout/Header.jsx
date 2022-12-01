@@ -1,7 +1,7 @@
 import "../styles/main.css";
 
 import { navLinks } from "../components/infos.js";
-import logoBranca from "../../public/logoBranca.svg";
+import logoBranca from "/public/logoBranca.svg";
 
 export function Header() {
   return (
